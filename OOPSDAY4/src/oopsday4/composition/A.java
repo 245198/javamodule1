@@ -1,18 +1,16 @@
-package oopsday3.line;
+package oopsday4.composition;
 
-
-
-public class Points 
+public class A 
 {
-	int x;
-	int y;
-	public Points(int x, int y) 
-	{
+	private int x;
+	private int y;
+	A() {
+		System.out.println("from A()");
+	}
+	public A(int x, int y) {
 		super();
 		this.x = x;
 		this.y = y;
-	}
-	public Points() {
 	}
 	public int getX() {
 		return x;
@@ -27,5 +25,4 @@ public class Points
 		this.y = y;
 	}
 	
-
 }
