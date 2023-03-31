@@ -23,7 +23,10 @@ public class PredicateTest {
 	{
 		for(String str:strings)
 		{
-			System.out.println(p.test(str));
+			if(p.test(str))
+			{
+				System.out.println(str);
+			}
 		}
 		
 	}

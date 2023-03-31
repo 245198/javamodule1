@@ -17,7 +17,7 @@ public class BiConsumerTest {
 		System.out.println(k+" and"+v));
 		
 		BiConsumer<String,String> bi =
-				(k,v) -> System.out.println(k+" for"+v);
+				(k,v) -> System.out.println(k+" for "+v);
 				
 				map.forEach(bi);
 			
